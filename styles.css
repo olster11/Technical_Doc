@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   
+  }
+  
+  body{
+    font-size: 1.1rem;
+    font-family: "Open Sans", Arial, sans-serif;
+    min-width: 320px;
+  }
+  
+  #title{
+    text-align: center;
+    margin: 0px;
+    font-size: 2.5rem;
+    padding: 10px;
+    white-space: pre;
+    
+  }
+  
+  #nav-bar{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+     border-right: 1px solid;
+  }
+  
+   #nav-list {
+   list-style: none;
+   padding: 0px;
+  
+  }
+  
+  .nav-list-item {
+    border-top: 1px solid;
+  }
+  
+  
+  .nav-link:hover{
+    background-color: #555;
+    color: white;
+    
+  }
+  
+  
+  .nav-link {
+    display: block;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  #main-doc{
+    
+    padding-left: 320px; 
+    min-width: 320px;
+  }
+  
+  .main-section header {
+    font-size: 1.5rem;
+    padding: 20px 10px 10px 20px;
+  position: sticky;
+  top: 0px;
+    background-color: white;
+  }
+  
+  .main-section p {
+    padding: 10px 10px 10px 0px;
+  }
+  
+  .main-section article {
+    padding: 10px 10px 10px 40px;
+  }
+  
+  .main-section ul {
+    padding: 40px;
+  }
+  
+  .main-section li {
+    padding: 10px;
+  }
+  
+  .main-section code {
+   display: block;
+   padding: 15px;
+   margin: 10px 40px;
+    background-color: #F3F2F2; 
+    white-space: pre;
+    overflow-wrap: break-word; 
+  }
+  
+  @media (max-width: 1090px) {
+   .main-section code {
+   display: block;
+   padding: 15px;
+   margin: 10px 40px;
+    background-color: #F3F2F2; 
+    white-space: normal;
+    overflow-wrap: break-word; 
+  }
+  }
+  
+  @media (max-width: 800px) {
+    #nav-bar{
+    width: 100%;
+    position: relative;
+     min-width: 320px;
+      
+  }
+    
+    #nav-list {
+      border: 2px solid;
+      height: 200px;
+      overflow: scroll;
+     
+    }
+    
+    #main-doc{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  
+  .main-section article {
+    padding: 10px 10px 10px 20px;
+  }
+  
+  .main-section ul {
+    padding: 10px;
+  }
+   
+    .main-section code {
+   
+   padding: 15px;
+   margin: 10px 10px;
+  
+  }
